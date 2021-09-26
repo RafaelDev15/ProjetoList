@@ -1,0 +1,39 @@
+.container_bg{
+    position: fixed;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.6);
+    z-index: 99;
+}
+
+.sub_container{ 
+  position: fixed;
+  height: 400px;
+  width: 600px;
+  top: 15%;
+  left:0;
+  right: 0;
+  margin: 0 auto;
+  padding: 4em 2rem;
+  background-color: #FFF;
+  box-shadow: 0 0 20px rgba(0,0,0, 0.8);
+}
+
+.icon_close{
+    
+}
+
+.button{
+    border: none;
+    background-color: #B22222;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+@media (max-width: 600px){
+    .sub_container{
+        width: 360px;
+    }
+}

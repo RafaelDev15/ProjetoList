@@ -1,0 +1,20 @@
+.container_table{
+    margin: 7px;
+}
+
+.icons_table, svg:not(:first-child){
+    margin-left: 10px;
+}
+
+.icons_table{
+    width: 180px;
+    text-align: center;
+}
+
+svg{
+    cursor: pointer;
+}
+
+.modal{
+    background-color: rgba(000, 000, 000, 0.1);
+}
